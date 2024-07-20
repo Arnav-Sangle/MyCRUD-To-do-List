@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCRUD To-do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1> MyCRUD To-do List </h1>
+        <div class="input-section">
+
+            <!-- value attri    stores text written inside input box-->
+            <input 
+                id="new-task" 
+                type="text" 
+                placeholder="Add a new task"
+                value="hi"                     
+            >
+            
+            <button class="btn" id="add-task-btn">Add</button> 
+        </div>
+        <ul id="task-list">
+                <!-- style="list-style-type: none;"
+                removes circle
+                -->  
+            <li data-id=""> 
+                <span>my name is Timothy Heriyagupin</span> 
+                    <div class="test">
+                        <button class="edit-btn btn"> Edit </button> 
+                        <button class="delete-btn btn"> Delete </button> 
+                    </div>
+            </li>
+        </ul>
+    </div>
+
+    
+    <script src="./script.js"> </script>
+
+</body>
+</html>
